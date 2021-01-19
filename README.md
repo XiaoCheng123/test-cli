@@ -13,5 +13,22 @@ npm link
 test-cli -h
 ```
 
+# 命令
+
+查看版本
+```
+test-cli -v
+```
+
+检查更新脚手架
+```
+test-cli upgrade
+```
+
+设置下载模版镜像
+```
+test-cli mirror <template_mirror>
+```
+
 # 参考文章
 https://juejin.cn/post/6879265583205089287

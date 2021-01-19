@@ -20,6 +20,8 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.0.0",
+    "fs-extra": "^9.0.1",
+    "log-symbols": "^4.0.0",
     "update-notifier": "^5.0.1"
   }
 }
