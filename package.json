@@ -1,0 +1,24 @@
+{
+  "name": "test-cli",
+  "version": "1.0.0",
+  "description": "前端脚手架搭建测试",
+  "main": "index.js",
+  "bin": {
+    "test-cli": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoCheng123/test-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XiaoCheng123/test-cli/issues"
+  },
+  "homepage": "https://github.com/XiaoCheng123/test-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0"
+  }
+}
