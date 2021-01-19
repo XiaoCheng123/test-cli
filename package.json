@@ -1,5 +1,5 @@
 {
-  "name": "test-cli",
+  "name": "vuepress-creator",
   "version": "1.0.0",
   "description": "前端脚手架搭建测试",
   "main": "index.js",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/XiaoCheng123/test-cli#readme",
   "dependencies": {
     "chalk": "^4.1.0",
-    "commander": "^7.0.0"
+    "commander": "^7.0.0",
+    "update-notifier": "^5.0.1"
   }
 }
