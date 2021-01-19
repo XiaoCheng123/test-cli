@@ -35,5 +35,10 @@ test-cli mirror <template_mirror>
 test-cli template
 ```
 
+初始化模版
+```
+test-cli init <project_name>
+```
+
 # 参考文章
 https://juejin.cn/post/6879265583205089287
