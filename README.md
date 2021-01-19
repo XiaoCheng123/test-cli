@@ -30,5 +30,10 @@ test-cli upgrade
 test-cli mirror <template_mirror>
 ```
 
+更新下载模版
+```
+test-cli template
+```
+
 # 参考文章
 https://juejin.cn/post/6879265583205089287

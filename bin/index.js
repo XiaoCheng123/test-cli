@@ -6,6 +6,8 @@ const program = require('commander')
 const updateChk = require('../lib/update')
 // 请求 lib/mirror.js
 const setMirror = require('../lib/mirror')
+// 请求 lib/download.js
+const dlTemplate = require('../lib/download')
 
 // 从 package.json 文件中请求 version 字段的值，-v和--version是参数
 program.version(require('../package.json').version, '-v, --version')
@@ -28,6 +30,14 @@ program
   .action((tplMirror) => {
     setMirror(tplMirror)
   })
+
+// template 下载/更新模板
+program
+	.command('template')
+	.description("Download template from mirror.")
+	.action(() => {
+		dlTemplate()
+	})
 
 // 解析命令行参数
 program.parse(process.argv)
